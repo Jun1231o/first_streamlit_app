@@ -45,7 +45,7 @@ def get_fruit_load_list():
     my_cur.execute("select * from fruit_load_list")
     return my_cur.fetchall()
   
-#my_cur.execute("insert into fruit_load_list values ('from streamlit')  
+my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 # Allow the end user to add a fruit to the list
 def insert_row_snowflake(new_fruit):
   with my_cnx.cursor() as my_cur:
