@@ -1,6 +1,3 @@
-# requirements.txt
-snowflake-connector-python
-
 import streamlit
 import pandas
 import snowflake.connector
